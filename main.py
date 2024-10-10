@@ -15,4 +15,5 @@ parsedData = BeautifulSoup(htmlData, "html.parser")
 # Parse html
 
 soup = BeautifulSoup("<h1> Welcome to KDnuggets! </h1>", "html.parser")
-print(type(soup))
+# print(type(soup))....to this step...we covert the html to beatifulsoup for us to understand in python
+# print(type(soup.h1)) ... after the above step we look for the tag h1...
