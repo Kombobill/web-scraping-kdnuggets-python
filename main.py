@@ -10,4 +10,9 @@ htmlData = res.content
 # //un comment print(htmlData)..to validate the above step..
 
 parsedData = BeautifulSoup(htmlData, "html.parser")
-print(parsedData.prettify())
+# print(parsedData.prettify())
+
+# Parse html
+
+soup = BeautifulSoup("<h1> Welcome to KDnuggets! </h1>", "html.parser")
+print(type(soup))
