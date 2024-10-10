@@ -22,3 +22,5 @@ soup = BeautifulSoup("<h1> Welcome to KDnuggets! </h1>", "html.parser")
 # print(type(soup.h1.string))...this last two is for gettin a string.stored in a tag in string format
 #  
 
+# print(parsedData.title)....gettin title with tag
+# print(parsedData.title.string)...gettin title as a string only
