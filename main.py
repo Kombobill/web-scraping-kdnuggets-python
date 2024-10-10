@@ -24,3 +24,11 @@ soup = BeautifulSoup("<h1> Welcome to KDnuggets! </h1>", "html.parser")
 
 # print(parsedData.title)....gettin title with tag
 # print(parsedData.title.string)...gettin title as a string only
+
+# h2 = parsedData.find('h2')
+# print(h2)... findin a specific header
+
+# H2s = parsedData.find_all("h2")
+# for h2 in H2s:
+#     print(h2)...finding all headers 
+      
